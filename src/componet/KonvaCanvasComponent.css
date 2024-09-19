@@ -1,0 +1,17 @@
+.containerBox{
+
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+.buttonContainer{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}

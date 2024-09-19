@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Canvas from './componet/Canvas';
+import CanvasButtons from './componet/CanvasButtons';
+import Header from './componet/Header';
+import KonvaCanvasComponent from './componet/KonvaCanvasComponent';
+import KonvaImageComponent from './componet/KonvaImageComponent';
+import KonvaMediaComponent from './componet/KonvaMediaComponent';
+import KonvaTextComponent from './componet/KonvaTextComponent';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+    <Header/>
+    <div className="containerApp">
+ 
+    <KonvaCanvasComponent/>
+    </div>
     </div>
   );
 }
